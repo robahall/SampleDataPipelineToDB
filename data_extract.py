@@ -122,7 +122,7 @@ class DataExtraction:
 		special_substrate = 20.0
 		others = 5.0
 
-		# Performs a regular expression search for the special phosphor type.
+		# Performs a regular expression search for the special substrate type.
 
 		is_it_BFB = re.match('(BFB)', substrate_type)
 		is_it_DS = re.match('(DS)', substrate_type)
